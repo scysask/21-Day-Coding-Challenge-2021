@@ -1,6 +1,5 @@
 const organizeData = (receivedData) => {
   let finalOutput = {};
-  let types = [];
   for (i=0; i<receivedData.length; ++i) {
     let currentType = receivedData[i].type;
     if (finalOutput[currentType] === undefined) {
